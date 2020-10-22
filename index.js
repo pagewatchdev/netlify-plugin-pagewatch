@@ -50,7 +50,7 @@ module.exports = {
       else if (response.status !== 200) {
         const data = await response.json();
         return utils.build.failPlugin(
-          "PageWatch audit could not be started. Reason: " + data.error
+          "PageWatch audit could not be started. Reason: " + data.message
         );
       } else {
         const data = await response.json();
