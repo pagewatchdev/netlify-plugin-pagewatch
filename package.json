@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-pagewatch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "PageWatch build plugin for Netlify",
   "main": "index.js",
   "scripts": {
